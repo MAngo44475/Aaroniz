@@ -5,13 +5,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/index.css">
     <title>Interland</title>
+    <style>
+        body {
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            font-family: Arial, sans-serif;
+        }
+        header {
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            background-color: rgba(0, 0, 0, 0.7);
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+        main {
+            flex: 1;
+        }
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background-color: #f1f1f1;
+            color: #333;
+        }
+    </style>
 </head>
 <body>
-    <header>
-        <h1>Welcome to Interland</h1>
-        <p>Your first step into the exciting world of cybersecurity!</p>
-    </header>
-    
     <main>
         <script src="js/phaser.min.js" defer></script>
         <script src="js/question.js" defer></script>
@@ -22,6 +44,10 @@
         <script src="js/password.js" defer></script>
         <script src="js/config.js" defer></script>
     </main>
+
+    <header>
+        <h1>Aaron & Dad's Fun World</h1>
+    </header>
 
     <footer>
         <p><strong>Developed by:</strong> Aaron Vijeesh's Dad for Aaron and his friends to take their first steps into the world of cybersecurity.</p>
